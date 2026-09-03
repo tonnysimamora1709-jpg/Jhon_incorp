@@ -1193,3 +1193,86 @@ footer {
     }
 
 }
+
+/* =========================================
+   PENYEMPURNAAN DESKTOP
+   TENTANG KAMI + VISI & MISI
+   ========================================= */
+
+@media (min-width: 901px) {
+
+    /* Tentang Kami */
+    .about {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .about-text {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .about-text h3 {
+        color: #0b4f9c;
+        font-size: 28px;
+        margin-bottom: 18px;
+    }
+
+    .about-text p {
+        color: #555;
+        font-size: 16px;
+        line-height: 1.8;
+        margin-bottom: 18px;
+    }
+
+    /* Kartu informasi perusahaan */
+    .company-info {
+        margin-top: 40px;
+    }
+
+    .company-info > div {
+        min-height: 125px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .company-info strong {
+        font-size: 16px;
+        color: #0b4f9c;
+    }
+
+    .company-info span {
+        font-size: 14px;
+        color: #555;
+    }
+
+    /* Visi & Misi */
+    .vision-mission {
+        padding-top: 90px;
+        padding-bottom: 90px;
+    }
+
+    .vision-mission-grid {
+        max-width: 1100px;
+        gap: 30px;
+    }
+
+    .vm-card {
+        min-height: 250px;
+        padding: 35px;
+    }
+
+    .vm-card h3 {
+        font-size: 27px;
+        padding-bottom: 12px;
+        border-bottom: 2px solid #e3eaf3;
+    }
+
+    .vm-card p,
+    .vm-card li {
+        font-size: 16px;
+        line-height: 1.8;
+    }
+
+}
